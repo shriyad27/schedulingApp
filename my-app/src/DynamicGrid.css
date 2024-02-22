@@ -1,0 +1,15 @@
+grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(100px, 1fr)); /* Adjust cell size here */
+    gap: 10px; /* Space between grid items */
+    border: 2px solid black; /* Border around the entire grid */
+    padding: 10px; /* Padding around the grid */
+  }
+  
+  .grid-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px; /* Fixed height, but could be dynamic */
+    outline: 1px solid #333; /* Outline for each grid item */
+  }

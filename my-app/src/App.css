@@ -1,0 +1,63 @@
+.App {
+  text-align: center;
+}
+
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #202040;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  width: 100%;
+}
+
+.List {
+  display: inline-block; /* Make the UL an inline-block so it can be centered */
+  text-align: left; 
+  list-style-position: inside; /* Ensures bullets/numbers are inside the content flow */
+  text-align: left;          /* Centers the text */
+  padding: 0;                  /* Removes default padding */
+  display: block;              /* Makes sure the list is a block-level element */
+  max-width: fit-content;      /* Ensures the list doesn't stretch to full width */
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.button{
+  background-color: #fcfcfc;
+  border: none;
+  color: rgb(0, 0, 0);
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
