@@ -26,6 +26,23 @@
   width: 100%;
 }
 
+.lists-container {
+  display: flex;
+  justify-content: space-around; /* This will space out the child divs evenly */
+  gap: 50px;
+}
+
+.buttons-container {
+  display: flex;
+  justify-content: space-around; /* This will space out the child divs evenly */
+  gap: 10px;
+}
+
+.List {
+  list-style-type: none; /* This removes bullet points from the list */
+  padding: 0; /* This removes padding from the list */
+}
+
 .List {
   display: inline-block; /* Make the UL an inline-block so it can be centered */
   text-align: left; 

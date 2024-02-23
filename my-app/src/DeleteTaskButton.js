@@ -27,6 +27,7 @@ function DeleteTaskButton({taskList, deleteTask}) {
             deleteTask(index);
         }
         setTask(''); // Reset task input
+        toggleForm();
       };
 
     return (
@@ -37,6 +38,7 @@ function DeleteTaskButton({taskList, deleteTask}) {
                 <label>
                     Task: <input type="text" name="name" value={currentTask} onChange={handleTaskChange}/>  
                 </label>
+                <input type="submit" value="Submit"/>
                 </form>
             )}
         </div>
